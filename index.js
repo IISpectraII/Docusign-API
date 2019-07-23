@@ -36,7 +36,7 @@ async function sendEnvelopeController (req, res) {
   // Fill in these constants or use query parameters of ACCESS_TOKEN, ACCOUNT_ID, USER_FULLNAME, USER_EMAIL
   // or environment variables.
 
-  // Obtain an OAuth token from https://developers.hqtest.tst/oauth-token-generator
+  // Obtain an OAuth token from https://developers.docusign.com/oauth-token-generator
   const accessToken = envir.ACCESS_TOKEN || qp.ACCESS_TOKEN || '{ACCESS_TOKEN}';
 
   // Obtain your accountId from demo.docusign.com -- the account id is shown in the drop down on the
